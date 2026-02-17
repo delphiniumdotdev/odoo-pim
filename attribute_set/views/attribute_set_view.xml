@@ -14,22 +14,7 @@
                     />
                 </group>
                 <group name="attributes" string="Attributes">
-                    <field
-                        name="attribute_ids"
-                        colspan="4"
-                        context="{'default_model_id': model_id, 'from_attribute_set': 1}"
-                        domain="[('model_id', '=', model_id)]"
-                        nolabel="1"
-                    >
-                        <list>
-                            <field name="name" />
-                            <field name="field_description" />
-                            <field name="attribute_type" />
-                            <field name="required" />
-                            <field name="sequence" />
-                            <field name="attribute_group_id" />
-                        </list>
-                    </field>
+                    <field name="attribute_ids" widget="many2many_list" nolabel="1" colspan="4" />
                 </group>
             </form>
         </field>

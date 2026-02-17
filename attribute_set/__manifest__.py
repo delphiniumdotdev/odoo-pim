@@ -9,6 +9,7 @@
     "data": [
         "security/ir.model.access.csv",
         "security/attribute_security.xml",
+        "views/attribute_attribute_option_tree_view.xml",
         "views/menu_view.xml",
         "views/attribute_attribute_view.xml",
         "views/attribute_group_view.xml",

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="attribute_attribute_option_tree_view" model="ir.ui.view">
+        <field name="name">attribute.option.list</field>
+        <field name="model">attribute.option</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="relation_model_id" column_invisible="True" />
+                <field name="value_ref" column_invisible="True" />
+                <field name="sequence" column_invisible="True" />
+                <field name="name" />
+            </tree>
+        </field>
+    </record>
+</odoo>
